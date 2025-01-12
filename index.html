@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Message</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #34495e, #2c3e50);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 90%;
+            margin: 20px;
+        }
+        .container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 4px solid #eee;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .container h1 {
+            color: #f39c12;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        .container p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #ecf0f1;
+        }
+        .container button {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .container button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="WhatsApp Image 2025-01-12 at 19.16.43.jpeg" alt="Farewell Image">
+        <h1>Terima Kasih dan Selamat Tinggal!</h1>
+        <p>Kepada akang teteh tercinta,</p>
+        <p>Terima kasih atas segala ilmu, pengalaman, dan kenangan yang telah diberikan kepada kami. 
+        Selamat menempuh perjalanan baru, dan semoga sukses selalu menyertai akang teteh di masa depan.</p>
+        <p>Semoga akang teteh selalu diberikan kesehatan, keberkahan, dan kesuksesan dalam setiap langkah yang diambil.</p>
+        <p>Doa kami menyertai akang teteh dalam setiap perjuangan. Jangan lupa untuk selalu tersenyum dan tetap semangat!</p>
+        <button onclick="sendBestWishes()">Kirim Doa Terbaik</button>
+    </div>
+
+    <script>
+        function sendBestWishes() {
+            alert('Doa terbaik telah dikirimkan khususon akang teteh! 😊');
+        }
+    </script>
+</body>
+</html>
